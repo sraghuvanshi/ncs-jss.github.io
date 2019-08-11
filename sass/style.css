@@ -793,6 +793,13 @@ body .navbar-light .navbar-toggler-icon {
   transition: 0.9s ease;
 }
 
+@media (max-width: 1000px) {
+  .mainProject .mainProject-wrap .image-wrap {
+    height: 200px;
+    width: 346px;
+  }
+}
+
 @media (max-width: 510px) {
   .mainProject .mainProject-wrap .image-wrap {
     height: 200px;
@@ -929,6 +936,13 @@ body .navbar-light .navbar-toggler-icon {
   background-size: 110%;
   -webkit-transition: 0.9s ease;
   transition: 0.9s ease;
+}
+
+@media (max-width: 1000px) {
+  .projects-wrap .image-wrap {
+    height: 200px;
+    width: 346px;
+  }
 }
 
 @media (max-width: 510px) {
